@@ -1,5 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Universal Style  */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+/* Universal Style ends here  */
+
+/* nav style starts here  */
+header {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2.3rem;
+  margin-bottom: 2.3rem;
+}
+
+.item {
+  text-decoration: none;
+  color: #3c354f;
+  padding: 3.3rem 2rem 3.3rem 0rem;
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.follow {
+  color: #3c354f;
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.icon {
+  width: 16.375rem;
+  border-radius: 0.5rem;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 1rem 1.5rem;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.logo-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.fa-youtube {
+  padding: 0 0.8rem;
+}
+
+.colored {
+  color: #ff42a5;
+}
+
+/* nav style ends here  */
