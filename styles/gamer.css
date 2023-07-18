@@ -133,3 +133,35 @@ main {
   background: #4ec5f7;
 }
 /* banner style ends here  */
+
+/* Online games card style starts   */
+.game-cards-section {
+  width: 1440px;
+  margin: 0 auto;
+}
+.title-section {
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+}
+.funny-title {
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.funny-title span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.funny-description {
+  color: #534c64;
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+/* Online games card style ends   */
