@@ -1,4 +1,7 @@
+/* For mobile */
+
 @media screen and (max-width: 576px) {
+  /* navbar section starts  */
   .navbar {
     flex-direction: column;
   }
@@ -11,7 +14,41 @@
   .item-2 {
     padding: 0 0 4.3rem 0;
   }
+  /* navbar section ends  */
+
+  /* banner section starts */
+  main {
+    background-image: none;
+  }
+  .banner-section {
+    flex-direction: column-reverse;
+    padding: 1rem;
+  }
+  .banner-img {
+    width: 100%;
+    padding-top: 2rem;
+  }
+  .banner-text {
+    width: 100%;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-image: url('../images/bg.png');
+    background-size: contain;
+  }
+  .goat-title {
+    text-align: center;
+  }
+  .banner-para {
+    text-align: center;
+  }
+  /* banner section ends */
 }
+
+/* For Tablets  */
+
+/* navbar section starts  */
+
 @media screen and (min-width: 576px) and (max-width: 768px) {
   .navbar {
     flex-direction: column;
@@ -25,4 +62,9 @@
   .item-2 {
     padding: 0 0 4.3rem 0;
   }
+  /* navbar section ends  */
+
+  /* banner section starts */
+
+  /* banner section ends */
 }
