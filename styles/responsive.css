@@ -118,8 +118,24 @@
     bottom: -2rem;
     right: -2rem;
   }
-
   /* play games online section style ends here  */
+  /* Games category style starts here */
+  .game-category {
+    gap: 0.5rem;
+  }
+  .game-circle {
+    gap: 1;
+    width: 25rem;
+    flex-basis: 6rem;
+    /* border: 1px solid #ff42a5; */
+  }
+  .game-circle img {
+    width: 2.1rem;
+  }
+  .game-circle p {
+    font-size: 0.5rem;
+  }
+  /* Games category style ends here */
 }
 
 /*! For Tablets  */
@@ -250,6 +266,24 @@
     bottom: -2rem;
     right: -2rem;
   }
-
   /* play games online section style ends here  */
+
+  /* Games category style starts here */
+  .game-category {
+    gap: 1.5rem;
+  }
+  .game-circle {
+    gap: 2.125rem;
+    width: 12.5rem;
+    flex-basis: 12rem;
+    /* border: 1px solid #ff42a5; */
+    border-radius: 3.125rem;
+  }
+  .game-circle img {
+    width: 3.5rem;
+  }
+  .game-circle p {
+    font-size: 1rem; /*0.5*/
+  }
+  /* Games category style ends here */
 }
