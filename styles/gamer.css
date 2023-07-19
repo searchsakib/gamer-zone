@@ -191,7 +191,7 @@ main {
 /* play games section style here  */
 .play-games-section {
   max-width: 1440px;
-  margin: 6rem auto 0;
+  margin: 6rem auto 16rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -238,5 +238,42 @@ main {
   font-weight: 400;
   line-height: 1.875rem; /* 166.667% */
 }
-
 /* play games section style ends here  */
+
+/* Games category style starts here */
+.games-category {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.game-circle {
+  width: 15.5rem;
+  flex-basis: 15.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border: 1px solid transparent;
+  border-radius: 3.125rem;
+}
+
+.game-circle:hover {
+  border: 1px solid #ff42a5;
+  cursor: pointer;
+}
+.game-circle:hover p {
+  color: #ff42a5;
+}
+
+.game-circle p {
+  color: #0b0223;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* Games category style ends here */
