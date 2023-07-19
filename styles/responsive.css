@@ -20,6 +20,9 @@
   main {
     background-image: none;
   }
+  .play-title {
+    text-align: center;
+  }
   .banner-section {
     flex-direction: column-reverse;
     padding: 1rem;
@@ -72,6 +75,51 @@
     line-height: 1.875rem; /* 150% */
   }
   /* Online games funny video section ends  */
+
+  /* play games section style starts here  */
+  .play-games-section {
+    width: 100%;
+    flex-direction: column-reverse;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .play-games-text {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .play-games-title {
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+  .play-games-description {
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .play-games-image {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    right: 1rem;
+  }
+  .small-image {
+    width: 8rem;
+    border-radius: 0.5rem;
+    border: 3px solid #fff;
+    position: absolute;
+    bottom: -2rem;
+    right: -2rem;
+  }
+
+  /* play games section style ends here  */
 }
 
 /*! For Tablets  */
@@ -81,6 +129,9 @@
 @media screen and (min-width: 576px) and (max-width: 770px) {
   .navbar {
     flex-direction: column;
+  }
+  .play-title {
+    text-align: center;
   }
   .item {
     display: block;
