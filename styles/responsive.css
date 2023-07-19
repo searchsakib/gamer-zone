@@ -80,7 +80,7 @@
   .play-games-section {
     width: 100%;
     flex-direction: column-reverse;
-    margin: 0 auto;
+    margin: 0 auto 6rem;
     padding: 0;
   }
   .play-games-text {
@@ -212,7 +212,7 @@
   .play-games-section {
     width: 100%;
     flex-direction: column-reverse;
-    margin: 0 auto;
+    margin: 0 auto 6rem;
     padding: 0;
   }
   .play-games-text {
