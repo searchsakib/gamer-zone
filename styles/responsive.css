@@ -76,7 +76,7 @@
   }
   /* Online games funny video section ends  */
 
-  /* play games section style starts here  */
+  /* play games online section style starts here  */
   .play-games-section {
     width: 100%;
     flex-direction: column-reverse;
@@ -119,7 +119,7 @@
     right: -2rem;
   }
 
-  /* play games section style ends here  */
+  /* play games online section style ends here  */
 }
 
 /*! For Tablets  */
@@ -207,4 +207,49 @@
     width: 100%;
   }
   /* Online games funny video section ends  */
+
+  /* play games online section style starts here  */
+  .play-games-section {
+    width: 100%;
+    flex-direction: column-reverse;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .play-games-text {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .play-games-title {
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+  .play-games-description {
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .play-games-image {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    right: 1rem;
+  }
+  .small-image {
+    width: 8rem;
+    border-radius: 0.5rem;
+    border: 3px solid #fff;
+    position: absolute;
+    bottom: -2rem;
+    right: -2rem;
+  }
+
+  /* play games online section style ends here  */
 }
