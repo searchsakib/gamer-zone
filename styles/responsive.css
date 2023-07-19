@@ -136,6 +136,33 @@
     font-size: 0.5rem;
   }
   /* Games category style ends here */
+  /* footer style starts here  */
+  .footer-about {
+    padding: 0 1rem;
+    flex-wrap: wrap;
+    gap: 0;
+    margin-bottom: 3.5rem;
+    cursor: pointer;
+  }
+  .footer-about-description {
+    padding: 1.2rem;
+  }
+  .footer-policy {
+    flex-wrap: wrap;
+    gap: 0;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+  }
+  .footer-policy-description {
+    padding: 1.2rem;
+  }
+
+  .footer-copyright {
+    margin: 0 auto;
+    width: 50%;
+    padding-bottom: 4rem;
+  }
+  /* footer style ends here  */
 }
 
 /*! For Tablets  */
@@ -286,4 +313,32 @@
     font-size: 1rem; /*0.5*/
   }
   /* Games category style ends here */
+
+  /* footer style starts here  */
+  .footer-about {
+    padding: 0 1rem;
+    flex-wrap: wrap;
+    gap: 0;
+    margin-bottom: 3.5rem;
+    cursor: pointer;
+  }
+  .footer-about-description {
+    padding: 1.2rem;
+  }
+  .footer-policy {
+    flex-wrap: wrap;
+    gap: 0;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+  }
+  .footer-policy-description {
+    padding: 1.2rem;
+  }
+
+  .footer-copyright {
+    margin: 0 auto;
+    width: 50%;
+    padding-bottom: 4rem;
+  }
+  /* footer style ends here  */
 }
