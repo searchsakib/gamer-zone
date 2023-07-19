@@ -43,6 +43,35 @@
     text-align: center;
   }
   /* banner section ends */
+
+  /* Online games funny video section starts  */
+  .title-section {
+    margin-top: 2rem;
+  }
+  .game-cards-section {
+    width: 90%;
+  }
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0;
+  }
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4 {
+    margin-top: 0;
+    margin-bottom: 3rem;
+  }
+  .card > p {
+    color: #534c64;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.875rem; /* 150% */
+  }
+  /* Online games funny video section ends  */
 }
 
 /*! For Tablets  */
@@ -92,4 +121,39 @@
     text-align: center;
   }
   /* banner section ends */
+
+  /* Online games funny video section starts  */
+  .title-section {
+    margin-top: 2rem;
+  }
+  .game-cards-section {
+    width: 90%;
+  }
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0;
+  }
+  .cards img {
+    width: 100%;
+  }
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4 {
+    margin-top: 0;
+    margin-bottom: 3rem;
+    width: 100%;
+  }
+
+  .card > p {
+    color: #534c64;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2rem;
+    width: 100%;
+  }
+  /* Online games funny video section ends  */
 }
