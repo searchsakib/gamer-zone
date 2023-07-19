@@ -323,7 +323,7 @@
     cursor: pointer;
   }
   .footer-about-description {
-    padding: 1.2rem;
+    padding: 2rem 3rem;
   }
   .footer-policy {
     flex-wrap: wrap;
@@ -332,7 +332,7 @@
     cursor: pointer;
   }
   .footer-policy-description {
-    padding: 1.2rem;
+    padding: 2rem;
   }
 
   .footer-copyright {
