@@ -178,6 +178,50 @@ main {
   font-weight: 400;
   margin-top: 1rem;
 }
+/* overlay style  */
+
+.card-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 1rem;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  padding: 1rem;
+}
+
+.card-content:hover .overlay {
+  opacity: 1;
+  border: 5px solid #ff42a5;
+  cursor: pointer;
+}
+
+.overlay i {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.overlay p {
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* overlay style ends  */
 
 .cards {
   display: flex;
@@ -190,13 +234,7 @@ main {
   width: 21.375rem;
   border-radius: 1rem;
 }
-.hover-card {
-  border: 5px solid transparent;
-}
-.hover-card:hover {
-  border: 5px solid #ff42a5;
-  cursor: pointer;
-}
+
 .card > p {
   width: 21.375rem;
   color: #534c64;
@@ -220,7 +258,6 @@ main {
 .play-games-image {
   width: 50%;
   position: relative;
-  /* z-index: 1; */
 }
 .guy-image {
   width: 100%;
