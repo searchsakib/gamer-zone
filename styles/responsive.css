@@ -224,10 +224,12 @@
     width: 90%;
   }
   .cards {
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    gap: 0;
+    gap: 0; */
   }
   .cards img {
     width: 100%;
