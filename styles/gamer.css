@@ -9,12 +9,12 @@
 a {
   text-decoration: none;
 }
-a:visited {
+a:visited,
+a:active,
+a:focus {
   color: inherit;
 }
-a:active {
-  color: inherit;
-}
+
 body {
   font-family: 'Work Sans', sans-serif;
 }
